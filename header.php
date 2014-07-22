@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage WPwebstarterkit
- * @since WPwebstarterkit 1.0
+ * @subpackage webstarterkitthirteen
+ * @since webstarterkitthirteen 1.0
  */
 ?>
 <!doctype html>
