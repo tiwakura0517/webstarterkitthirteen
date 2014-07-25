@@ -14,7 +14,7 @@
     <?php get_sidebar( 'main' ); ?>
   </footer><!-- #colophon -->
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/main.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

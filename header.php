@@ -10,7 +10,7 @@
  */
 ?>
 <!doctype html>
-<html>
+<html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="196x196" href="images/touch/chrome-touch-icon-196x196.png">
+    <link rel="icon" sizes="196x196" href="<?php echo get_stylesheet_directory_uri(); ?>/images/touch/chrome-touch-icon-196x196.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,19 +28,13 @@
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
-
-    <!-- build:css styles/components/main.min.css -->
-    <link rel="stylesheet" href="styles/h5bp.css">
-    <link rel="stylesheet" href="styles/components/components.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
 
     <!-- twenty thirteen -->
     <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -54,7 +48,7 @@
 <body <?php body_class(); ?>>
     <header class="app-bar promote-layer">
       <div class="app-bar-container">
-        <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
+        <button class="menu"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hamburger.svg" alt="Menu"></button>
         <h1 class="logo"><?php bloginfo( 'name' ); ?></h1>
         <section class="app-bar-actions">
         <!-- Put App Bar Buttons Here -->
