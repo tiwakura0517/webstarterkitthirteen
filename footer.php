@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage webstarterkitthirteen
- * @since webstarterkitthirteen 1.0
+ * @since webstarterkitthirteen 0.4.0
  */
 ?>
     </main>
